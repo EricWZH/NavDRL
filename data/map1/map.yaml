@@ -1,0 +1,4 @@
+image: map.pgm
+resolution: 0.2
+origin: [-5.2, -5.2, 0]
+

@@ -1,0 +1,5 @@
+/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/lib/libsummercamp.so
+/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/bin/simulate
+/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/./data/map.yaml
+/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/./data/C3.stl
+/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/./data/map.pgm

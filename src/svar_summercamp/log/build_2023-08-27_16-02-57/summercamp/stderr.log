@@ -1,0 +1,287 @@
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:529:[m[K [01;35m[Kwarning: [m[K"LOG_IF" redefined
+  529 | #define LOG_IF(severity, condition) \
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:570:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  570 | #define LOG_IF(severity, condition) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:546:[m[K [01;35m[Kwarning: [m[K"VLOG" redefined
+  546 | #  define VLOG(n) MessageLogger((char *)__FILE__, __LINE__, "native", n).stream()    // NOLINT
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1098:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1098 | #define VLOG(verboselevel) LOG_IF(INFO, VLOG_IS_ON(verboselevel))
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:548:[m[K [01;35m[Kwarning: [m[K"VLOG_IF" redefined
+  548 | #  define VLOG_IF(n, condition) LOG_IF(n, condition)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1100:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1100 | #define VLOG_IF(verboselevel, condition) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:553:[m[K [01;35m[Kwarning: [m[K"VLOG_IS_ON" redefined
+  553 | #  define VLOG_IS_ON(x) (1)
+      | 
+In file included from [01m[K/usr/include/glog/logging.h:513[m[K,
+                 from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/vlog_is_on.h:82:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   82 | #define VLOG_IS_ON(verboselevel)                                \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:561:[m[K [01;35m[Kwarning: [m[K"DLOG" redefined
+  561 | #  define DLOG(severity) true ? (void) 0 : LoggerVoidify() & \
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1009:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1009 | #define DLOG(severity)  \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:576:[m[K [01;35m[Kwarning: [m[K"CHECK" redefined
+  576 | #define CHECK(condition) LOG_IF_FALSE(FATAL, condition) \
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:586:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  586 | #define CHECK(condition)  \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:585:[m[K [01;35m[Kwarning: [m[K"DCHECK" redefined
+  585 | #  define DCHECK(condition) if (false) LOG_IF_FALSE(FATAL, condition) \
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1035:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1035 | #define DCHECK(condition) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:593:[m[K [01;35m[Kwarning: [m[K"CHECK_OP" redefined
+  593 | #define CHECK_OP(val1, val2, op) LOG_IF_FALSE(FATAL, ((val1) op (val2))) \
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:765:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  765 | #define CHECK_OP(name, op, val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:597:[m[K [01;35m[Kwarning: [m[K"CHECK_EQ" redefined
+  597 | #define CHECK_EQ(val1, val2) CHECK_OP(val1, val2, ==)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:790:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  790 | #define CHECK_EQ(val1, val2) CHECK_OP(_EQ, ==, val1, val2)
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:598:[m[K [01;35m[Kwarning: [m[K"CHECK_NE" redefined
+  598 | #define CHECK_NE(val1, val2) CHECK_OP(val1, val2, !=)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:791:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  791 | #define CHECK_NE(val1, val2) CHECK_OP(_NE, !=, val1, val2)
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:599:[m[K [01;35m[Kwarning: [m[K"CHECK_LE" redefined
+  599 | #define CHECK_LE(val1, val2) CHECK_OP(val1, val2, <=)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:792:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  792 | #define CHECK_LE(val1, val2) CHECK_OP(_LE, <=, val1, val2)
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:600:[m[K [01;35m[Kwarning: [m[K"CHECK_LT" redefined
+  600 | #define CHECK_LT(val1, val2) CHECK_OP(val1, val2, <)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:793:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  793 | #define CHECK_LT(val1, val2) CHECK_OP(_LT, < , val1, val2)
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:601:[m[K [01;35m[Kwarning: [m[K"CHECK_GE" redefined
+  601 | #define CHECK_GE(val1, val2) CHECK_OP(val1, val2, >=)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:794:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  794 | #define CHECK_GE(val1, val2) CHECK_OP(_GE, >=, val1, val2)
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:602:[m[K [01;35m[Kwarning: [m[K"CHECK_GT" redefined
+  602 | #define CHECK_GT(val1, val2) CHECK_OP(val1, val2, >)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:795:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  795 | #define CHECK_GT(val1, val2) CHECK_OP(_GT, > , val1, val2)
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:614:[m[K [01;35m[Kwarning: [m[K"DCHECK_EQ" redefined
+  614 | #  define DCHECK_EQ(val1, val2) if (false) CHECK_OP(val1, val2, ==)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1040:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1040 | #define DCHECK_EQ(val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:615:[m[K [01;35m[Kwarning: [m[K"DCHECK_NE" redefined
+  615 | #  define DCHECK_NE(val1, val2) if (false) CHECK_OP(val1, val2, !=)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1045:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1045 | #define DCHECK_NE(val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:616:[m[K [01;35m[Kwarning: [m[K"DCHECK_LE" redefined
+  616 | #  define DCHECK_LE(val1, val2) if (false) CHECK_OP(val1, val2, <=)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1050:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1050 | #define DCHECK_LE(val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:617:[m[K [01;35m[Kwarning: [m[K"DCHECK_LT" redefined
+  617 | #  define DCHECK_LT(val1, val2) if (false) CHECK_OP(val1, val2, <)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1055:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1055 | #define DCHECK_LT(val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:618:[m[K [01;35m[Kwarning: [m[K"DCHECK_GE" redefined
+  618 | #  define DCHECK_GE(val1, val2) if (false) CHECK_OP(val1, val2, >=)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1060:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1060 | #define DCHECK_GE(val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:619:[m[K [01;35m[Kwarning: [m[K"DCHECK_GT" redefined
+  619 | #  define DCHECK_GT(val1, val2) if (false) CHECK_OP(val1, val2, >)
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1065:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1065 | #define DCHECK_GT(val1, val2) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:645:[m[K [01;35m[Kwarning: [m[K"CHECK_NOTNULL" redefined
+  645 | #define CHECK_NOTNULL(val) \
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:800:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+  800 | #define CHECK_NOTNULL(val) \
+      | 
+In file included from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:2[m[K:
+[01m[K/home/eric/桌面/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:654:[m[K [01;35m[Kwarning: [m[K"DCHECK_NOTNULL" redefined
+  654 | #define DCHECK_NOTNULL(val) if (false)\
+      | 
+In file included from [01m[K/usr/include/ceres/internal/fixed_array.h:39[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:147[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:132[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/eric/桌面/summercamp/svar_summercamp/src/plicp.cpp:1[m[K:
+[01m[K/usr/include/glog/logging.h:1072:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ 1072 | #define DCHECK_NOTNULL(val) (val)
+      | 

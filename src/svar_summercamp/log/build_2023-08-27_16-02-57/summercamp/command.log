@@ -1,0 +1,6 @@
+Invoking command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/eric/桌面/summercamp/svar_summercamp -DCMAKE_INSTALL_PREFIX=/home/eric/桌面/summercamp/svar_summercamp/install/summercamp
+Invoked command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp' returned '0': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/eric/桌面/summercamp/svar_summercamp -DCMAKE_INSTALL_PREFIX=/home/eric/桌面/summercamp/svar_summercamp/install/summercamp
+Invoking command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/eric/桌面/summercamp/svar_summercamp/build/summercamp -- -j24 -l24
+Invoked command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp' returned '0': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/eric/桌面/summercamp/svar_summercamp/build/summercamp -- -j24 -l24
+Invoking command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/eric/桌面/summercamp/svar_summercamp/build/summercamp
+Invoked command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp' returned '0': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/eric/桌面/summercamp/svar_summercamp/build/summercamp

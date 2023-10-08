@@ -1,0 +1,9 @@
+source;share/summercamp/hook/ld_library_path_lib.ps1
+source;share/summercamp/hook/ld_library_path_lib.dsv
+source;share/summercamp/hook/ld_library_path_lib.sh
+source;share/summercamp/hook/path.ps1
+source;share/summercamp/hook/path.dsv
+source;share/summercamp/hook/path.sh
+source;share/summercamp/hook/pythonscriptspath.ps1
+source;share/summercamp/hook/pythonscriptspath.dsv
+source;share/summercamp/hook/pythonscriptspath.sh

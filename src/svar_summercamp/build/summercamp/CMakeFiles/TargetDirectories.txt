@@ -1,0 +1,8 @@
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/install/strip.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/install/local.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/install.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/list_install_components.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/rebuild_cache.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/edit_cache.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/uninstall.dir
+/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/CMakeFiles/summercamp.dir

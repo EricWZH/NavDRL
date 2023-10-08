@@ -1,0 +1,41 @@
+#! /usr/bin/python3
+import svar
+import time
+import os
+import readchar
+
+ex_demo = svar.load("summercamp")
+ros2    = svar.load("svar_zbus")
+messenger = svar.load('svar_messenger').messenger
+
+print()
+simulator = ex_demo.Simulator({"mesh":os.path.abspath(os.path.split(__file__)[0]+"/../data/C3.stl"),
+                               "sim_t_factor":1,"init_pose":[1,1,0,0,0,0,1]}) # 机器人本体仿真
+world     = ex_demo.World({"map_file":os.path.abspath(os.path.split(__file__)[0]+"/../data/map"),
+                           "scan2baselink":[0.08, 0, 0,0,0,0,1]}) # 环境仿真
+
+transfer = ros2.Transfer({"node":"simulator",
+                          "subscriptions":[["/vel_mcu","geometry_msgs/msg/Twist",10]], # 用于控制机器人运动
+                          "publishers":[["/odom","nav_msgs/msg/Odometry",10], # 里程计信息
+                                        ["/map","nav_msgs/msg/OccupancyGrid",10], # 栅格地图信息
+                                        ["/map_cloud","sensor_msgs/msg/PointCloud2",10], #用点云表达的墙面
+                                        ["/markers","visualization_msgs/msg/MarkerArray",10], # 用于显示机器人
+                                        ["/tf","tf2_msgs/msg/TFMessage",10], # 用于显示机器人
+                                        ["/scan","sensor_msgs/msg/LaserScan",10]]}) # 激光雷达
+                          
+while 1:
+  c = readchar.readchar()
+  print(c)
+  vel = {"linear":{"x":0,"y":0,"z":0},"angular":{"x":0,"y":0,"z":0}}
+  if c == "q":
+    break
+  elif c == "w":
+    vel["linear"]["x"] = 0.6
+  elif c == "s":
+    vel["linear"]["x"] = -0.6
+  elif c == "a":
+    vel["angular"]["z"] = 1.0
+  elif c == "d":
+    vel["angular"]["z"] = -1.0
+    
+  messenger.publish("/vel_mcu",vel)

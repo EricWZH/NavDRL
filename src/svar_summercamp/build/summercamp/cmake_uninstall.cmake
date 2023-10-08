@@ -1,0 +1,11 @@
+IF(NOT EXISTS "/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/install_manifest.txt")
+              MESSAGE(FATAL_ERROR "Cannot find install manifest: /home/eric/桌面/summercamp/svar_summercamp/build/summercamp/install_manifest.txt")
+              ENDIF()
+              FILE(READ "/home/eric/桌面/summercamp/svar_summercamp/build/summercamp/install_manifest.txt" files)
+              STRING(REGEX REPLACE "\n" ";" files "${files}")
+              FOREACH(file ${files})
+              MESSAGE(STATUS "Uninstalling ${file}")
+              #EXECUTE_PROCESS(COMMAND rm "${file}")
+              file(REMOVE "${file}")
+              ENDFOREACH()
+              

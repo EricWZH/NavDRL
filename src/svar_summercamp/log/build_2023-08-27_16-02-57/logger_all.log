@@ -1,0 +1,98 @@
+[4.956s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.957s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff8e2626fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=24, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff8e2626fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff8e2630520>)
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eric/桌面/summercamp/svar_summercamp'
+[5.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.270s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'cmake' and name 'summercamp'
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.418s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/eric/桌面/DRL-Navigation/summercamp_ws/install
+[5.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[5.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'cmake_args' from command line to 'None'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'cmake_target' from command line to 'None'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'cmake_clean_cache' from command line to 'False'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'cmake_clean_first' from command line to 'False'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'cmake_force_configure' from command line to 'False'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'ament_cmake_args' from command line to 'None'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'catkin_cmake_args' from command line to 'None'
+[5.786s] Level 5:colcon.colcon_core.verb:set package 'summercamp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.786s] DEBUG:colcon.colcon_core.verb:Building package 'summercamp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp', 'merge_install': False, 'path': '/home/eric/桌面/summercamp/svar_summercamp', 'symlink_install': False, 'test_result_base': None}
+[5.786s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eric/桌面/summercamp/svar_summercamp'
+[5.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/eric/桌面/summercamp/svar_summercamp -DCMAKE_INSTALL_PREFIX=/home/eric/桌面/summercamp/svar_summercamp/install/summercamp
+[9.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp' returned '0': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/eric/桌面/summercamp/svar_summercamp -DCMAKE_INSTALL_PREFIX=/home/eric/桌面/summercamp/svar_summercamp/install/summercamp
+[9.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/eric/桌面/summercamp/svar_summercamp/build/summercamp -- -j24 -l24
+[33.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp' returned '0': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/eric/桌面/summercamp/svar_summercamp/build/summercamp -- -j24 -l24
+[33.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/eric/桌面/summercamp/svar_summercamp/build/summercamp
+[33.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(summercamp)
+[33.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp' returned '0': CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/eric/桌面/summercamp/svar_summercamp/build/summercamp
+[33.675s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp' for CMake module files
+[33.676s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp' for CMake config files
+[33.677s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/lib'
+[33.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('summercamp', 'ld_library_path_lib')
+[33.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/ld_library_path_lib.ps1'
+[33.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/ld_library_path_lib.dsv'
+[33.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/ld_library_path_lib.sh'
+[33.719s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/bin'
+[33.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('summercamp', 'path')
+[33.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/path.ps1'
+[33.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/path.dsv'
+[33.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/path.sh'
+[33.724s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/lib/pkgconfig/summercamp.pc'
+[33.725s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/lib/python3.8/site-packages'
+[33.725s] Level 1:colcon.colcon_core.environment:checking '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/bin'
+[33.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('summercamp', 'pythonscriptspath')
+[33.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/pythonscriptspath.ps1'
+[33.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/pythonscriptspath.dsv'
+[33.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/hook/pythonscriptspath.sh'
+[33.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/package.ps1'
+[33.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/package.dsv'
+[33.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/package.sh'
+[33.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/package.bash'
+[33.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/summercamp/package.zsh'
+[33.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eric/桌面/summercamp/svar_summercamp/install/summercamp/share/colcon-core/packages/summercamp)
+[33.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.755s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.801s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.801s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.122s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eric/桌面/summercamp/svar_summercamp/install/local_setup.ps1'
+[34.128s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eric/桌面/summercamp/svar_summercamp/install/_local_setup_util_ps1.py'
+[34.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eric/桌面/summercamp/svar_summercamp/install/setup.ps1'
+[34.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eric/桌面/summercamp/svar_summercamp/install/local_setup.sh'
+[34.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eric/桌面/summercamp/svar_summercamp/install/_local_setup_util_sh.py'
+[34.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eric/桌面/summercamp/svar_summercamp/install/setup.sh'
+[34.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eric/桌面/summercamp/svar_summercamp/install/local_setup.bash'
+[34.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eric/桌面/summercamp/svar_summercamp/install/setup.bash'
+[34.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eric/桌面/summercamp/svar_summercamp/install/local_setup.zsh'
+[34.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eric/桌面/summercamp/svar_summercamp/install/setup.zsh'

@@ -1,0 +1,637 @@
+[0.000000] (-) TimerEvent: {}
+[0.000397] (summercamp) JobQueued: {'identifier': 'summercamp', 'dependencies': OrderedDict()}
+[0.000418] (summercamp) JobStarted: {'identifier': 'summercamp'}
+[0.077179] (summercamp) JobProgress: {'identifier': 'summercamp', 'progress': 'cmake'}
+[0.077884] (summercamp) Command: {'cmd': ['/usr/bin/cmake', '/home/eric/桌面/summercamp/svar_summercamp', '-DCMAKE_INSTALL_PREFIX=/home/eric/桌面/summercamp/svar_summercamp/install/summercamp'], 'cwd': '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'eric'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2249'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install/summercamp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64'), ('HOME', '/home/eric'), ('CONDA_SHLVL', '2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1245'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dd68b3b58e596fe594a64fd664e88a48'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'eric'), ('JOURNAL_STREAM', '8:59263'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install/summercamp/bin:/opt/ros/foxy/bin:/home/eric/.conda/envs/ros2/bin:/home/eric/anaconda3/condabin:/usr/local/cuda-11.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ericson-cvte:@/tmp/.ICE-unix/2516,unix/ericson-cvte:/tmp/.ICE-unix/2516'), ('INVOCATION_ID', '58746a8f53dc46078d3144b5ad4d5d26'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d5d1ff8_99c6_4754_9cf7_47983aa5b0ff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/eric/anaconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/eric/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/eric/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dd68b3b58e596fe594a64fd664e88a48'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/eric/.conda/envs/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099665] (-) TimerEvent: {}
+[0.200091] (-) TimerEvent: {}
+[0.300832] (-) TimerEvent: {}
+[0.401409] (-) TimerEvent: {}
+[0.501897] (-) TimerEvent: {}
+[0.602271] (-) TimerEvent: {}
+[0.702495] (-) TimerEvent: {}
+[0.802782] (-) TimerEvent: {}
+[0.903227] (-) TimerEvent: {}
+[1.003701] (-) TimerEvent: {}
+[1.104129] (-) TimerEvent: {}
+[1.204523] (-) TimerEvent: {}
+[1.304973] (-) TimerEvent: {}
+[1.405355] (-) TimerEvent: {}
+[1.505602] (-) TimerEvent: {}
+[1.604665] (summercamp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.605706] (-) TimerEvent: {}
+[1.705941] (-) TimerEvent: {}
+[1.810679] (-) TimerEvent: {}
+[1.911120] (-) TimerEvent: {}
+[2.011552] (-) TimerEvent: {}
+[2.111995] (-) TimerEvent: {}
+[2.212365] (-) TimerEvent: {}
+[2.312637] (-) TimerEvent: {}
+[2.412883] (-) TimerEvent: {}
+[2.469442] (summercamp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.513005] (-) TimerEvent: {}
+[2.523354] (summercamp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.613124] (-) TimerEvent: {}
+[2.660384] (summercamp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.662382] (summercamp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.713323] (-) TimerEvent: {}
+[2.771999] (summercamp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.784220] (summercamp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.784802] (summercamp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.788268] (summercamp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.813457] (-) TimerEvent: {}
+[2.870702] (summercamp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.871285] (summercamp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.913553] (-) TimerEvent: {}
+[2.933335] (summercamp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.943689] (summercamp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.944049] (summercamp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.013638] (-) TimerEvent: {}
+[3.042982] (summercamp) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[3.085853] (summercamp) StdoutLine: {'line': b'-- Found installed version of Eigen: /usr/lib/cmake/eigen3\n'}
+[3.098964] (summercamp) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3\n'}
+[3.113706] (-) TimerEvent: {}
+[3.130862] (summercamp) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[3.174250] (summercamp) StdoutLine: {'line': b'-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags\n'}
+[3.174460] (summercamp) StdoutLine: {'line': b'-- Detected gflags version: 2.2.2\n'}
+[3.187611] (summercamp) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[3.189888] (summercamp) StdoutLine: {'line': b'-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]\n'}
+[3.191502] (summercamp) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[3.191639] (summercamp) StdoutLine: {'line': b'-- --System:\n'}
+[3.191873] (summercamp) StdoutLine: {'line': b'--   SYSTEM_LIBRARIES: pthread;dl\n'}
+[3.191984] (summercamp) StdoutLine: {'line': b'--   SYSTEM_DEFINITIONS: -static-libstdc++;-static-libgcc;-DHAS_SYSTEM\n'}
+[3.192089] (summercamp) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[3.192202] (summercamp) StdoutLine: {'line': b'-- --OpenCV: VERSION 4.2.0\n'}
+[3.192446] (summercamp) StdoutLine: {'line': b'--   OPENCV_INCLUDES: /usr/include/opencv4\n'}
+[3.192561] (summercamp) StdoutLine: {'line': b'--   OPENCV_LIBRARIES: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_aruco;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hdf;opencv_hfs;opencv_img_hash;opencv_line_descriptor;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_reg;opencv_rgbd;opencv_saliency;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto\n'}
+[3.192687] (summercamp) StdoutLine: {'line': b'--   OPENCV_DEFINITIONS: -DHAS_OPENCV\n'}
+[3.192788] (summercamp) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[3.192890] (summercamp) StdoutLine: {'line': b'-- --Ceres: VERSION 1.14.0\n'}
+[3.192992] (summercamp) StdoutLine: {'line': b'--   CERES_INCLUDES: /usr/include;/usr/include/eigen3;/usr/include\n'}
+[3.193093] (summercamp) StdoutLine: {'line': b'--   CERES_LIBRARIES: ceres\n'}
+[3.193190] (summercamp) StdoutLine: {'line': b'--   CERES_DEFINITIONS: -DHAS_CERES\n'}
+[3.195882] (summercamp) StdoutLine: {'line': b'-- The following targets will to be build:\n'}
+[3.196035] (summercamp) StdoutLine: {'line': b'-- LIBS():  libsummercamp.so\n'}
+[3.196118] (summercamp) StdoutLine: {'line': b'-- APPS(): \n'}
+[3.196200] (summercamp) StdoutLine: {'line': b'-- C++ flags (Release):  -O3 -DNDEBUG\n'}
+[3.197966] (summercamp) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.213781] (-) TimerEvent: {}
+[3.216922] (summercamp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.217943] (summercamp) StdoutLine: {'line': b'-- Build files have been written to: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/build/summercamp\n'}
+[3.222053] (summercamp) CommandEnded: {'returncode': 0}
+[3.222741] (summercamp) JobProgress: {'identifier': 'summercamp', 'progress': 'build'}
+[3.223547] (summercamp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp', '--', '-j24', '-l24'], 'cwd': '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'eric'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2249'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install/summercamp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64'), ('HOME', '/home/eric'), ('CONDA_SHLVL', '2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1245'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dd68b3b58e596fe594a64fd664e88a48'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'eric'), ('JOURNAL_STREAM', '8:59263'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install/summercamp/bin:/opt/ros/foxy/bin:/home/eric/.conda/envs/ros2/bin:/home/eric/anaconda3/condabin:/usr/local/cuda-11.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ericson-cvte:@/tmp/.ICE-unix/2516,unix/ericson-cvte:/tmp/.ICE-unix/2516'), ('INVOCATION_ID', '58746a8f53dc46078d3144b5ad4d5d26'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d5d1ff8_99c6_4754_9cf7_47983aa5b0ff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/eric/anaconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/eric/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/eric/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dd68b3b58e596fe594a64fd664e88a48'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/eric/.conda/envs/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[3.253106] (summercamp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target summercamp\x1b[0m\n'}
+[3.313918] (-) TimerEvent: {}
+[3.414410] (-) TimerEvent: {}
+[3.514793] (-) TimerEvent: {}
+[3.615196] (-) TimerEvent: {}
+[3.715556] (-) TimerEvent: {}
+[3.766960] (summercamp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/summercamp.dir/src/gslam.cpp.o\x1b[0m\n'}
+[3.767223] (summercamp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/summercamp.dir/src/plicp.cpp.o\x1b[0m\n'}
+[3.767326] (summercamp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/summercamp.dir/src/simulate.cpp.o\x1b[0m\n'}
+[3.767414] (summercamp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/summercamp.dir/src/tinytf.cpp.o\x1b[0m\n'}
+[3.767489] (summercamp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/summercamp.dir/src/world.cpp.o\x1b[0m\n'}
+[3.815698] (-) TimerEvent: {}
+[3.916155] (-) TimerEvent: {}
+[4.016447] (-) TimerEvent: {}
+[4.116732] (-) TimerEvent: {}
+[4.217045] (-) TimerEvent: {}
+[4.317332] (-) TimerEvent: {}
+[4.417660] (-) TimerEvent: {}
+[4.427788] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.428004] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.428064] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:529:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"LOG_IF" redefined\n'}
+[4.428831] (summercamp) StderrLine: {'line': b'  529 | #define LOG_IF(severity, condition) \\\n'}
+[4.428886] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.428939] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.429131] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.429595] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.429647] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.429697] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.429747] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:570:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.429797] (summercamp) StderrLine: {'line': b'  570 | #define LOG_IF(severity, condition) \\\n'}
+[4.429853] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.429901] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.429949] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.429997] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:546:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"VLOG" redefined\n'}
+[4.430046] (summercamp) StderrLine: {'line': b'  546 | #  define VLOG(n) MessageLogger((char *)__FILE__, __LINE__, "native", n).stream()    // NOLINT\n'}
+[4.430094] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.430142] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.430198] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.430247] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.430294] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.430342] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.430401] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1098:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.430451] (summercamp) StderrLine: {'line': b' 1098 | #define VLOG(verboselevel) LOG_IF(INFO, VLOG_IS_ON(verboselevel))\n'}
+[4.430499] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.430547] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.430596] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.430645] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:548:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"VLOG_IF" redefined\n'}
+[4.430695] (summercamp) StderrLine: {'line': b'  548 | #  define VLOG_IF(n, condition) LOG_IF(n, condition)\n'}
+[4.430744] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.430792] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.430840] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.430888] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.430937] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.430985] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.431035] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1100:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.431083] (summercamp) StderrLine: {'line': b' 1100 | #define VLOG_IF(verboselevel, condition) \\\n'}
+[4.431131] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.431179] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.431228] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.431277] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:553:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"VLOG_IS_ON" redefined\n'}
+[4.431332] (summercamp) StderrLine: {'line': b'  553 | #  define VLOG_IS_ON(x) (1)\n'}
+[4.431380] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.431428] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/glog/logging.h:513\x1b[m\x1b[K,\n'}
+[4.431483] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.431533] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.431588] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.431637] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.431685] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.431735] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/vlog_is_on.h:82:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.431784] (summercamp) StderrLine: {'line': b'   82 | #define VLOG_IS_ON(verboselevel)                                \\\n'}
+[4.431839] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.431887] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.431936] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.431984] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:561:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DLOG" redefined\n'}
+[4.432033] (summercamp) StderrLine: {'line': b'  561 | #  define DLOG(severity) true ? (void) 0 : LoggerVoidify() & \\\n'}
+[4.432081] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.432129] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.432178] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.432226] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.432274] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.432322] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.432370] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1009:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.432425] (summercamp) StderrLine: {'line': b' 1009 | #define DLOG(severity)  \\\n'}
+[4.432473] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.432522] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.432572] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.432621] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:576:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK" redefined\n'}
+[4.432669] (summercamp) StderrLine: {'line': b'  576 | #define CHECK(condition) LOG_IF_FALSE(FATAL, condition) \\\n'}
+[4.432718] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.432766] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.432816] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.432870] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.432919] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.432967] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.433022] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:586:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.433072] (summercamp) StderrLine: {'line': b'  586 | #define CHECK(condition)  \\\n'}
+[4.433120] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.433169] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.433218] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.433266] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:585:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK" redefined\n'}
+[4.433315] (summercamp) StderrLine: {'line': b'  585 | #  define DCHECK(condition) if (false) LOG_IF_FALSE(FATAL, condition) \\\n'}
+[4.433364] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.433413] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.433462] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.433513] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.433562] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.433611] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.433661] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1035:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.433710] (summercamp) StderrLine: {'line': b' 1035 | #define DCHECK(condition) \\\n'}
+[4.433761] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.433811] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.433863] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.433912] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:593:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_OP" redefined\n'}
+[4.433962] (summercamp) StderrLine: {'line': b'  593 | #define CHECK_OP(val1, val2, op) LOG_IF_FALSE(FATAL, ((val1) op (val2))) \\\n'}
+[4.434011] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.434060] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.434110] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.434159] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.434209] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.434258] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.434306] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:765:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.434371] (summercamp) StderrLine: {'line': b'  765 | #define CHECK_OP(name, op, val1, val2) \\\n'}
+[4.434422] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.434622] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.434683] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.434710] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:597:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_EQ" redefined\n'}
+[4.434735] (summercamp) StderrLine: {'line': b'  597 | #define CHECK_EQ(val1, val2) CHECK_OP(val1, val2, ==)\n'}
+[4.434758] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.434780] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.434802] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.434823] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.434845] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.434866] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.434888] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:790:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.434910] (summercamp) StderrLine: {'line': b'  790 | #define CHECK_EQ(val1, val2) CHECK_OP(_EQ, ==, val1, val2)\n'}
+[4.434930] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.434951] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.434976] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.434996] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:598:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_NE" redefined\n'}
+[4.435017] (summercamp) StderrLine: {'line': b'  598 | #define CHECK_NE(val1, val2) CHECK_OP(val1, val2, !=)\n'}
+[4.435037] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435058] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.435079] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.435099] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.435119] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.435139] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.435158] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:791:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.435179] (summercamp) StderrLine: {'line': b'  791 | #define CHECK_NE(val1, val2) CHECK_OP(_NE, !=, val1, val2)\n'}
+[4.435200] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435220] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.435242] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.435264] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:599:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_LE" redefined\n'}
+[4.435287] (summercamp) StderrLine: {'line': b'  599 | #define CHECK_LE(val1, val2) CHECK_OP(val1, val2, <=)\n'}
+[4.435311] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435332] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.435352] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.435373] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.435396] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.435417] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.435438] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:792:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.435461] (summercamp) StderrLine: {'line': b'  792 | #define CHECK_LE(val1, val2) CHECK_OP(_LE, <=, val1, val2)\n'}
+[4.435482] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435503] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.435526] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.435547] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:600:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_LT" redefined\n'}
+[4.435570] (summercamp) StderrLine: {'line': b'  600 | #define CHECK_LT(val1, val2) CHECK_OP(val1, val2, <)\n'}
+[4.435591] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435613] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.435634] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.435654] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.435674] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.435695] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.435716] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:793:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.435737] (summercamp) StderrLine: {'line': b'  793 | #define CHECK_LT(val1, val2) CHECK_OP(_LT, < , val1, val2)\n'}
+[4.435758] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435779] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.435799] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.435822] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:601:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_GE" redefined\n'}
+[4.435845] (summercamp) StderrLine: {'line': b'  601 | #define CHECK_GE(val1, val2) CHECK_OP(val1, val2, >=)\n'}
+[4.435866] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.435887] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.435908] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.435929] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.435950] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.435971] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.435992] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:794:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.436014] (summercamp) StderrLine: {'line': b'  794 | #define CHECK_GE(val1, val2) CHECK_OP(_GE, >=, val1, val2)\n'}
+[4.436034] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436055] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.436080] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.436103] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:602:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_GT" redefined\n'}
+[4.436124] (summercamp) StderrLine: {'line': b'  602 | #define CHECK_GT(val1, val2) CHECK_OP(val1, val2, >)\n'}
+[4.436146] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436167] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.436188] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.436210] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.436231] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.436253] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.436274] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:795:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.436295] (summercamp) StderrLine: {'line': b'  795 | #define CHECK_GT(val1, val2) CHECK_OP(_GT, > , val1, val2)\n'}
+[4.436318] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436338] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.436358] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.436380] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:614:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_EQ" redefined\n'}
+[4.436403] (summercamp) StderrLine: {'line': b'  614 | #  define DCHECK_EQ(val1, val2) if (false) CHECK_OP(val1, val2, ==)\n'}
+[4.436425] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436449] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.436473] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.436494] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.436516] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.436536] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.436558] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1040:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.436579] (summercamp) StderrLine: {'line': b' 1040 | #define DCHECK_EQ(val1, val2) \\\n'}
+[4.436600] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436620] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.436644] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.436667] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:615:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_NE" redefined\n'}
+[4.436689] (summercamp) StderrLine: {'line': b'  615 | #  define DCHECK_NE(val1, val2) if (false) CHECK_OP(val1, val2, !=)\n'}
+[4.436710] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436733] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.436755] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.436776] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.436797] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.436819] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.436841] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1045:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.436862] (summercamp) StderrLine: {'line': b' 1045 | #define DCHECK_NE(val1, val2) \\\n'}
+[4.436885] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.436908] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.436931] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.436956] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:616:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_LE" redefined\n'}
+[4.436978] (summercamp) StderrLine: {'line': b'  616 | #  define DCHECK_LE(val1, val2) if (false) CHECK_OP(val1, val2, <=)\n'}
+[4.437001] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437022] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.437053] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.437074] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.437098] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.437121] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.437143] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1050:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.437165] (summercamp) StderrLine: {'line': b' 1050 | #define DCHECK_LE(val1, val2) \\\n'}
+[4.437188] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437210] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.437235] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.437261] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:617:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_LT" redefined\n'}
+[4.437284] (summercamp) StderrLine: {'line': b'  617 | #  define DCHECK_LT(val1, val2) if (false) CHECK_OP(val1, val2, <)\n'}
+[4.437306] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437328] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.437351] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.437375] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.437396] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.437419] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.437442] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1055:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.437469] (summercamp) StderrLine: {'line': b' 1055 | #define DCHECK_LT(val1, val2) \\\n'}
+[4.437501] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437527] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.437555] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.437578] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:618:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_GE" redefined\n'}
+[4.437605] (summercamp) StderrLine: {'line': b'  618 | #  define DCHECK_GE(val1, val2) if (false) CHECK_OP(val1, val2, >=)\n'}
+[4.437628] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437653] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.437679] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.437704] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.437726] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.437748] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.437772] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1060:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.437805] (summercamp) StderrLine: {'line': b' 1060 | #define DCHECK_GE(val1, val2) \\\n'}
+[4.437829] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437851] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.437872] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.437893] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:619:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_GT" redefined\n'}
+[4.437912] (summercamp) StderrLine: {'line': b'  619 | #  define DCHECK_GT(val1, val2) if (false) CHECK_OP(val1, val2, >)\n'}
+[4.437932] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.437952] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.437972] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.437991] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.438011] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.438031] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.438052] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1065:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.438071] (summercamp) StderrLine: {'line': b' 1065 | #define DCHECK_GT(val1, val2) \\\n'}
+[4.438092] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.438112] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.438133] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.438153] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:645:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"CHECK_NOTNULL" redefined\n'}
+[4.438176] (summercamp) StderrLine: {'line': b'  645 | #define CHECK_NOTNULL(val) \\\n'}
+[4.438196] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.438218] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.438239] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.438262] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.438286] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.438307] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.438328] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:800:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.438348] (summercamp) StderrLine: {'line': b'  800 | #define CHECK_NOTNULL(val) \\\n'}
+[4.438401] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.438422] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/GSLAM.h:55\x1b[m\x1b[K,\n'}
+[4.438447] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:2\x1b[m\x1b[K:\n'}
+[4.438468] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/GSLAM/core/Glog.h:654:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"DCHECK_NOTNULL" redefined\n'}
+[4.438492] (summercamp) StderrLine: {'line': b'  654 | #define DCHECK_NOTNULL(val) if (false)\\\n'}
+[4.438513] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.438533] (summercamp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/ceres/internal/fixed_array.h:39\x1b[m\x1b[K,\n'}
+[4.438554] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:147\x1b[m\x1b[K,\n'}
+[4.438578] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:132\x1b[m\x1b[K,\n'}
+[4.438603] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/ceres/ceres.h:37\x1b[m\x1b[K,\n'}
+[4.438623] (summercamp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/src/plicp.cpp:1\x1b[m\x1b[K:\n'}
+[4.438644] (summercamp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/glog/logging.h:1072:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[4.438663] (summercamp) StderrLine: {'line': b' 1072 | #define DCHECK_NOTNULL(val) (val)\n'}
+[4.438683] (summercamp) StderrLine: {'line': b'      | \n'}
+[4.517901] (-) TimerEvent: {}
+[4.618443] (-) TimerEvent: {}
+[4.718837] (-) TimerEvent: {}
+[4.819394] (-) TimerEvent: {}
+[4.919796] (-) TimerEvent: {}
+[5.020276] (-) TimerEvent: {}
+[5.120789] (-) TimerEvent: {}
+[5.221286] (-) TimerEvent: {}
+[5.321810] (-) TimerEvent: {}
+[5.422264] (-) TimerEvent: {}
+[5.522614] (-) TimerEvent: {}
+[5.622932] (-) TimerEvent: {}
+[5.723286] (-) TimerEvent: {}
+[5.823659] (-) TimerEvent: {}
+[5.924058] (-) TimerEvent: {}
+[6.024489] (-) TimerEvent: {}
+[6.124992] (-) TimerEvent: {}
+[6.225431] (-) TimerEvent: {}
+[6.325975] (-) TimerEvent: {}
+[6.426624] (-) TimerEvent: {}
+[6.527310] (-) TimerEvent: {}
+[6.627883] (-) TimerEvent: {}
+[6.728567] (-) TimerEvent: {}
+[6.829074] (-) TimerEvent: {}
+[6.929571] (-) TimerEvent: {}
+[7.030015] (-) TimerEvent: {}
+[7.130406] (-) TimerEvent: {}
+[7.230816] (-) TimerEvent: {}
+[7.331220] (-) TimerEvent: {}
+[7.431598] (-) TimerEvent: {}
+[7.531921] (-) TimerEvent: {}
+[7.632239] (-) TimerEvent: {}
+[7.732651] (-) TimerEvent: {}
+[7.833178] (-) TimerEvent: {}
+[7.933560] (-) TimerEvent: {}
+[8.033993] (-) TimerEvent: {}
+[8.134539] (-) TimerEvent: {}
+[8.235188] (-) TimerEvent: {}
+[8.335604] (-) TimerEvent: {}
+[8.435932] (-) TimerEvent: {}
+[8.536171] (-) TimerEvent: {}
+[8.636515] (-) TimerEvent: {}
+[8.736897] (-) TimerEvent: {}
+[8.837274] (-) TimerEvent: {}
+[8.937666] (-) TimerEvent: {}
+[9.038061] (-) TimerEvent: {}
+[9.138501] (-) TimerEvent: {}
+[9.238951] (-) TimerEvent: {}
+[9.339208] (-) TimerEvent: {}
+[9.439486] (-) TimerEvent: {}
+[9.539783] (-) TimerEvent: {}
+[9.640181] (-) TimerEvent: {}
+[9.740750] (-) TimerEvent: {}
+[9.841330] (-) TimerEvent: {}
+[9.942069] (-) TimerEvent: {}
+[10.042509] (-) TimerEvent: {}
+[10.143011] (-) TimerEvent: {}
+[10.243485] (-) TimerEvent: {}
+[10.343773] (-) TimerEvent: {}
+[10.444074] (-) TimerEvent: {}
+[10.544365] (-) TimerEvent: {}
+[10.644724] (-) TimerEvent: {}
+[10.745095] (-) TimerEvent: {}
+[10.845515] (-) TimerEvent: {}
+[10.945823] (-) TimerEvent: {}
+[11.046122] (-) TimerEvent: {}
+[11.146471] (-) TimerEvent: {}
+[11.246751] (-) TimerEvent: {}
+[11.347068] (-) TimerEvent: {}
+[11.447359] (-) TimerEvent: {}
+[11.547609] (-) TimerEvent: {}
+[11.647920] (-) TimerEvent: {}
+[11.748243] (-) TimerEvent: {}
+[11.848588] (-) TimerEvent: {}
+[11.949036] (-) TimerEvent: {}
+[12.049350] (-) TimerEvent: {}
+[12.149749] (-) TimerEvent: {}
+[12.250130] (-) TimerEvent: {}
+[12.350700] (-) TimerEvent: {}
+[12.451025] (-) TimerEvent: {}
+[12.551327] (-) TimerEvent: {}
+[12.651590] (-) TimerEvent: {}
+[12.751891] (-) TimerEvent: {}
+[12.852144] (-) TimerEvent: {}
+[12.952418] (-) TimerEvent: {}
+[13.052698] (-) TimerEvent: {}
+[13.152934] (-) TimerEvent: {}
+[13.253205] (-) TimerEvent: {}
+[13.353611] (-) TimerEvent: {}
+[13.454070] (-) TimerEvent: {}
+[13.554416] (-) TimerEvent: {}
+[13.654759] (-) TimerEvent: {}
+[13.755045] (-) TimerEvent: {}
+[13.855385] (-) TimerEvent: {}
+[13.955658] (-) TimerEvent: {}
+[14.056003] (-) TimerEvent: {}
+[14.156311] (-) TimerEvent: {}
+[14.256599] (-) TimerEvent: {}
+[14.356868] (-) TimerEvent: {}
+[14.457110] (-) TimerEvent: {}
+[14.557317] (-) TimerEvent: {}
+[14.657547] (-) TimerEvent: {}
+[14.757945] (-) TimerEvent: {}
+[14.858540] (-) TimerEvent: {}
+[14.959076] (-) TimerEvent: {}
+[15.059521] (-) TimerEvent: {}
+[15.159955] (-) TimerEvent: {}
+[15.260325] (-) TimerEvent: {}
+[15.360758] (-) TimerEvent: {}
+[15.461114] (-) TimerEvent: {}
+[15.561666] (-) TimerEvent: {}
+[15.661945] (-) TimerEvent: {}
+[15.762266] (-) TimerEvent: {}
+[15.862536] (-) TimerEvent: {}
+[15.962797] (-) TimerEvent: {}
+[16.063077] (-) TimerEvent: {}
+[16.163319] (-) TimerEvent: {}
+[16.263498] (-) TimerEvent: {}
+[16.363676] (-) TimerEvent: {}
+[16.463897] (-) TimerEvent: {}
+[16.564160] (-) TimerEvent: {}
+[16.664384] (-) TimerEvent: {}
+[16.764692] (-) TimerEvent: {}
+[16.865021] (-) TimerEvent: {}
+[16.965278] (-) TimerEvent: {}
+[17.065495] (-) TimerEvent: {}
+[17.165675] (-) TimerEvent: {}
+[17.265878] (-) TimerEvent: {}
+[17.366003] (-) TimerEvent: {}
+[17.466178] (-) TimerEvent: {}
+[17.566379] (-) TimerEvent: {}
+[17.666556] (-) TimerEvent: {}
+[17.766749] (-) TimerEvent: {}
+[17.866973] (-) TimerEvent: {}
+[17.967155] (-) TimerEvent: {}
+[18.067394] (-) TimerEvent: {}
+[18.167590] (-) TimerEvent: {}
+[18.267758] (-) TimerEvent: {}
+[18.367931] (-) TimerEvent: {}
+[18.468104] (-) TimerEvent: {}
+[18.568321] (-) TimerEvent: {}
+[18.668526] (-) TimerEvent: {}
+[18.768757] (-) TimerEvent: {}
+[18.868983] (-) TimerEvent: {}
+[18.969206] (-) TimerEvent: {}
+[19.069407] (-) TimerEvent: {}
+[19.169601] (-) TimerEvent: {}
+[19.269797] (-) TimerEvent: {}
+[19.369967] (-) TimerEvent: {}
+[19.470139] (-) TimerEvent: {}
+[19.570349] (-) TimerEvent: {}
+[19.670524] (-) TimerEvent: {}
+[19.770764] (-) TimerEvent: {}
+[19.871016] (-) TimerEvent: {}
+[19.971287] (-) TimerEvent: {}
+[20.071616] (-) TimerEvent: {}
+[20.171883] (-) TimerEvent: {}
+[20.272111] (-) TimerEvent: {}
+[20.372308] (-) TimerEvent: {}
+[20.472490] (-) TimerEvent: {}
+[20.572670] (-) TimerEvent: {}
+[20.672935] (-) TimerEvent: {}
+[20.773188] (-) TimerEvent: {}
+[20.873452] (-) TimerEvent: {}
+[20.973847] (-) TimerEvent: {}
+[21.074028] (-) TimerEvent: {}
+[21.174234] (-) TimerEvent: {}
+[21.274440] (-) TimerEvent: {}
+[21.374603] (-) TimerEvent: {}
+[21.474756] (-) TimerEvent: {}
+[21.574916] (-) TimerEvent: {}
+[21.675128] (-) TimerEvent: {}
+[21.775327] (-) TimerEvent: {}
+[21.875523] (-) TimerEvent: {}
+[21.975729] (-) TimerEvent: {}
+[22.075943] (-) TimerEvent: {}
+[22.176176] (-) TimerEvent: {}
+[22.276412] (-) TimerEvent: {}
+[22.376594] (-) TimerEvent: {}
+[22.476823] (-) TimerEvent: {}
+[22.577034] (-) TimerEvent: {}
+[22.677293] (-) TimerEvent: {}
+[22.777531] (-) TimerEvent: {}
+[22.877817] (-) TimerEvent: {}
+[22.978066] (-) TimerEvent: {}
+[23.078244] (-) TimerEvent: {}
+[23.178542] (-) TimerEvent: {}
+[23.278820] (-) TimerEvent: {}
+[23.379093] (-) TimerEvent: {}
+[23.479294] (-) TimerEvent: {}
+[23.579543] (-) TimerEvent: {}
+[23.679938] (-) TimerEvent: {}
+[23.780251] (-) TimerEvent: {}
+[23.880611] (-) TimerEvent: {}
+[23.981038] (-) TimerEvent: {}
+[24.081297] (-) TimerEvent: {}
+[24.181528] (-) TimerEvent: {}
+[24.281799] (-) TimerEvent: {}
+[24.382078] (-) TimerEvent: {}
+[24.482347] (-) TimerEvent: {}
+[24.582556] (-) TimerEvent: {}
+[24.682705] (-) TimerEvent: {}
+[24.782912] (-) TimerEvent: {}
+[24.883157] (-) TimerEvent: {}
+[24.983357] (-) TimerEvent: {}
+[25.083543] (-) TimerEvent: {}
+[25.183780] (-) TimerEvent: {}
+[25.283996] (-) TimerEvent: {}
+[25.384176] (-) TimerEvent: {}
+[25.484435] (-) TimerEvent: {}
+[25.584731] (-) TimerEvent: {}
+[25.685124] (-) TimerEvent: {}
+[25.785332] (-) TimerEvent: {}
+[25.885559] (-) TimerEvent: {}
+[25.985774] (-) TimerEvent: {}
+[26.085962] (-) TimerEvent: {}
+[26.186211] (-) TimerEvent: {}
+[26.286490] (-) TimerEvent: {}
+[26.386730] (-) TimerEvent: {}
+[26.486906] (-) TimerEvent: {}
+[26.587143] (-) TimerEvent: {}
+[26.687458] (-) TimerEvent: {}
+[26.787861] (-) TimerEvent: {}
+[26.791919] (summercamp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libsummercamp.so\x1b[0m\n'}
+[26.888020] (-) TimerEvent: {}
+[26.988518] (-) TimerEvent: {}
+[27.089055] (-) TimerEvent: {}
+[27.189666] (-) TimerEvent: {}
+[27.290140] (-) TimerEvent: {}
+[27.390525] (-) TimerEvent: {}
+[27.491137] (-) TimerEvent: {}
+[27.591675] (-) TimerEvent: {}
+[27.680916] (summercamp) StdoutLine: {'line': b'[100%] Built target summercamp\n'}
+[27.691785] (-) TimerEvent: {}
+[27.693913] (summercamp) CommandEnded: {'returncode': 0}
+[27.715501] (summercamp) JobProgress: {'identifier': 'summercamp', 'progress': 'install'}
+[27.724448] (summercamp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp'], 'cwd': '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'eric'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2249'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install/summercamp/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64'), ('HOME', '/home/eric'), ('CONDA_SHLVL', '2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1245'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dd68b3b58e596fe594a64fd664e88a48'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'eric'), ('JOURNAL_STREAM', '8:59263'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eric'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/eric/桌面/DRL-Navigation/summercamp_ws/install/summercamp/bin:/opt/ros/foxy/bin:/home/eric/.conda/envs/ros2/bin:/home/eric/anaconda3/condabin:/usr/local/cuda-11.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ericson-cvte:@/tmp/.ICE-unix/2516,unix/ericson-cvte:/tmp/.ICE-unix/2516'), ('INVOCATION_ID', '58746a8f53dc46078d3144b5ad4d5d26'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d5d1ff8_99c6_4754_9cf7_47983aa5b0ff'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/eric/anaconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/eric/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eric/桌面/summercamp/svar_summercamp/build/summercamp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/eric/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dd68b3b58e596fe594a64fd664e88a48'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/eric/.conda/envs/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[27.728371] (summercamp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[27.728497] (summercamp) StdoutLine: {'line': b'-- Installing: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/install/summercamp/lib/libsummercamp.so\n'}
+[27.730359] (summercamp) StdoutLine: {'line': b'-- Installing: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/install/summercamp/bin/simulate\n'}
+[27.730436] (summercamp) StdoutLine: {'line': b'-- Installing: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/install/summercamp/./data\n'}
+[27.730503] (summercamp) StdoutLine: {'line': b'-- Installing: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/install/summercamp/./data/map.yaml\n'}
+[27.745293] (summercamp) StdoutLine: {'line': b'-- Installing: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/install/summercamp/./data/C3.stl\n'}
+[27.787652] (summercamp) StdoutLine: {'line': b'-- Installing: /home/eric/\xe6\xa1\x8c\xe9\x9d\xa2/summercamp/svar_summercamp/install/summercamp/./data/map.pgm\n'}
+[27.791889] (-) TimerEvent: {}
+[27.805669] (summercamp) CommandEnded: {'returncode': 0}
+[27.892177] (-) TimerEvent: {}
+[27.967301] (summercamp) JobEnded: {'identifier': 'summercamp', 'rc': 0}
+[27.968895] (-) EventReactorShutdown: {}
